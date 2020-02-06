@@ -19,32 +19,32 @@
  *
  * @package       mod
  * @subpackage    offlinequiz
- * @author        Staff AulaWeb <staff@aulaweb.unige.it>
- * @copyright     2018 Università degli Studi di Genova {@link https://unige.it}
- * @since         Moodle 3.3
+ * @author        Juergen Zimmer <zimmerj7@univie.ac.at>
+ * @copyright     2015 Academic Moodle Cooperation {@link http://www.academic-moodle-cooperation.org}
+ * @since         Moodle 2.1
  * @license       http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  *
  **/
 
-$string['addingfilestoqueue'] = 'Aggiungi {$a} file alla coda di valutazione dei moduli...';
-$string['addingfilestoqueue'] = '{$a} answer forms have been added to the evaluation queue. An email will be sent to your address after the data has been processed.';
-$string['correcterror'] = 'Correct';
-$string['deleteselectedpages'] = 'Delete selected pages';
-$string['errorcouldnotgrab'] = 'Could not grab';
+$string['addingfilestoqueue'] = '{$a} files aggiunti alla coda...';
+$string['addingfilestoqueue'] = '{$a} moduli risposta sono in coda per essere processati. Conclusa l\'operazione di correzione verrà inviata una email';
+$string['correcterror'] = 'Correggi';
+$string['deleteselectedpages'] = 'Elimina le pagine selezionate';
+$string['errorcouldnotgrab'] = 'Cattura dell\'immagine fallita';
 $string['errordifferentpage'] = 'Differing page exists';
-$string['errordoublepage'] = 'Page already exists';
-$string['errorfilenotfound'] = 'File not found';
-$string['errorgrouperror'] = 'Group error';
-$string['errorinsecuremarkings'] = 'Insecure markings';
+$string['errordoublepage'] = 'Pagina già presente';
+$string['errorfilenotfound'] = 'File non trovato';
+$string['errorgrouperror'] = 'Errore gruppo';
+$string['errorinsecuremarkings'] = 'Segni non sicuri';
 $string['errorinvalidpagenumber'] = 'Invalid page number';
 $string['errorinvalidlistnumber'] = 'Invalid Listnumber';
-$string['errormissingpages'] = 'Pages incomplete';
-$string['errornonexistinguser'] = 'User does not exist';
-$string['errornotadjusted'] = 'Not adjusted';
-$string['errorotherresult'] = 'Other result exists';
-$string['errorpageerror'] = 'Page error';
-$string['errorresultexists'] = 'Result exists';
-$string['errordifferentresultexists'] = 'Different result exists';
+$string['errormissingpages'] = 'Pagine incomplete';
+$string['errornonexistinguser'] = 'L\'utente non è presente';
+$string['errornotadjusted'] = 'Non calibrato';
+$string['errorotherresult'] = 'Esiste un altro risultato';
+$string['errorpageerror'] = 'Errore pagina';
+$string['errorresultexists'] = 'Il risultato esiste';
+$string['errordifferentresultexists'] = 'Esiste un risultato differente';
 $string['errorusernotincourse'] = 'User not in course';
 $string['errorusernotinlist'] = 'User not in list';
 $string['errorimportusernotinlist'] = 'User not in list';
@@ -52,17 +52,18 @@ $string['errorpngnotsupported'] = 'PNG images not supported';
 $string['errortiffnotsupported'] = 'TIFF images not supported';
 $string['errorjpgnotsupported'] = 'JPG images not supported';
 $string['errorgifnotsupported'] = 'GIF images not supported';
-$string['errorimagenotsupported'] = 'Image type not supported';
+$string['errorimagenotsupported'] = 'Tipo di immagine non supportato';
 $string['idnumber'] = 'ID-Number';
-$string['import'] = 'Import';
+$string['import'] = 'Importa';
 $string['importlisterror'] = 'List not detected';
 $string['importedon'] = 'Imported on';
-$string['importforms'] = 'Import answer forms';
-$string['importpforms'] = 'Import lists of participants';
-$string['newformsinqueue'] = '{$a} answer form(s) is/are pending evaluation.';
-$string['processingformsinqueue'] = '{$a} answer form(s) is/are being processed';
+$string['importforms'] = 'Importa i moduli risposta';
+$string['importpforms'] = 'Importa le liste partecipanti';
+$string['newformsinqueue'] = '{$a} moduli risposta in attesa di valutazione';
 $string['pluginname'] = 'Offlinequiz Results Import';
-$string['showpage'] = 'Show';
+$string['privacy:metadata'] = 'This plugin does not store any user related data.';
+$string['processingformsinqueue'] = '{$a} moduli risposta in fase di analisi';
+$string['showpage'] = 'Mostra';
 $string['username'] = 'Username';
-$string['waitingforanalysis'] = 'Waiting for Analysis';
-$string['ziporimagefile'] = 'ZIP- or image-file';
+$string['waitingforanalysis'] = 'In attesa del\'analisi';
+$string['ziporimagefile'] = 'ZIP o file immagine';
